@@ -7,7 +7,7 @@ declare -a BASH_ARGV=()
 declare -A BASH_CMDS=([rm]="/bin/rm" [mkdir]="/bin/mkdir" )
 declare -- BASH_COMMAND="git add ."
 declare -a BASH_COMPLETION_VERSINFO=([0]="2" [1]="8")
-declare -a BASH_LINENO=([0]="18")
+declare -a BASH_LINENO=([0]="33")
 declare -ar BASH_REMATCH=()
 declare -a BASH_SOURCE=([0]="/home/ubuntu/.bashrc")
 declare -- BASH_SUBSHELL="0"
@@ -131,7 +131,66 @@ declare -- __git_merge_strategies=""
 declare -- __git_mergetools_common="diffuse diffmerge ecmerge emerge kdiff3 meld opendiff
 			tkdiff vimdiff gvimdiff xxdiff araxis p4merge bc codecompare
 "
-declare -- __git_porcelain_commands=""
+declare -- __git_porcelain_commands="add
+am
+annotate
+apply
+archive
+mergetool
+bisect
+blame
+mv
+branch
+name-rev
+bundle
+notes
+checkout
+pull
+cherry
+push
+cherry-pick
+clean
+clone
+rebase
+commit
+reflog
+config
+remote
+describe
+diff
+repack
+replace
+request-pull
+difftool
+reset
+revert
+fetch
+rm
+filter-branch
+shortlog
+format-patch
+show
+fsck
+show-branch
+gc
+get-tar-commit-id
+stage
+grep
+stash
+status
+help
+submodule
+subtree
+imap-send
+tag
+init
+instaweb
+interpret-trailers
+log
+verify-commit
+merge
+whatchanged
+worktree"
 declare -- __git_printf_supports_v="yes"
 declare -- __git_push_recurse_submodules="check on-demand only"
 declare -- __git_revert_inprogress_options="--continue --quit --abort"

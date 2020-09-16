@@ -28,3 +28,18 @@ git branch
 git checkout -b testpullrequest/1
 git status
 git add.
+git add .
+git status
+git commit -m 'test pullrequest'
+git push
+git push --set-upstream origin testpullrequest/1
+git checkout master 
+git branch 
+git checkout master 
+git branch 
+git status 
+git add .
+git commit 'add'
+git commit
+git status 
+git checkout master 
