@@ -43,3 +43,10 @@ git commit 'add'
 git commit
 git status 
 git checkout master 
+git add .
+git commit 'fix'
+git commit -m 'fix'
+git push 
+git checkout master 
+git status 
+ls
